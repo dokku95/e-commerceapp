@@ -2,3 +2,5 @@ This is sample text
 
 
 I am adding this line to learn git
+
+commiting the new changes.
