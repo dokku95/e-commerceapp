@@ -6,3 +6,7 @@
 /e-commerce/obj
 /e-commerce/bin
 /e-commerce/e-commerce.csproj.user
+/e-commerce.Models/bin
+/e-commerce.Models/obj
+/e-commerce.Services/bin
+/e-commerce.Services/obj
