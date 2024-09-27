@@ -3,15 +3,15 @@
     public class Customer
     {
         public int CustomerId { get; set; }
-        public string CustomerName { get; set; }
+        public string CustomerName { get; set; } = string.Empty;
 
-        public string CustomerEmail { get; set; }
+        public string CustomerEmail { get; set; } = string.Empty;
 
-        public string CustomerPhone { get; set; }
+        public string CustomerPhone { get; set; } = string.Empty;
 
-        public string CustomerCity { get; set; }
+        public string CustomerCity { get; set; } = string.Empty;
 
-        public string CustomerAddress { get; set; }
+        public string CustomerAddress { get; set; } = string.Empty;
 
 
     }

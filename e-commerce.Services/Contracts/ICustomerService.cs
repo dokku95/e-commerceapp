@@ -12,10 +12,10 @@ namespace e_commerce.Services.Contracts
         Customer GetCustomerById(int id);
 
         Customer InsertCustomer(Customer customer);
+        Customer UpdateCustomer(Customer customer);
 
-        //GetCustomerbyId(int id)
-        //GetAllCustomers(string q)
-        //Insert/Update Customer (Customer custObj)
+        List<Customer> GetAllCustomers(string q);
+
         //DeleteCustomer(int custId)
 
     }

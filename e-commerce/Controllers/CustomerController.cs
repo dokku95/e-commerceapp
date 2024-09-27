@@ -33,10 +33,23 @@ namespace e_commerce.Controllers
             return _customerService.GetCustomerById(id);
         }
 
-        [HttpPost]
+        [HttpGet("allcustomers")]
+        public List<Customer> GetAllCustomers(string q)
+        {
+            return _customerService.GetAllCustomers(q);
+        }
+
+
+        [HttpPost("customer")]
         public Customer PostCustomer(Customer customer)
         {
             return _customerService.InsertCustomer(customer);
+        }
+
+        [HttpPut("Customer")]
+        public Customer UpdateCustomer(Customer customer)
+        {
+            return _customerService.UpdateCustomer(customer);
         }
     }
 }
