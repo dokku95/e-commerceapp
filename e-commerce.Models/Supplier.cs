@@ -8,15 +8,16 @@ namespace e_commerce.Models
 {
     public class Supplier
     {
-        public int SupplierId { get; set; }
+        public int SupplierId { get; set; } 
 
-        public string SupplierName { get; set; }
+        public string SupplierName { get; set; } = string.Empty;
 
-         public string SupplierEmail { get; set; }
+         public string SupplierEmail { get; set; } = string.Empty;
 
-        public string SupplierPhone { get; set; }
+        public string SupplierPhone { get; set; } = string.Empty ;
 
-        public string SupplierAddress { get; set; }
+
+        public string SupplierAddress { get; set; } = string.Empty;
 
       
 
