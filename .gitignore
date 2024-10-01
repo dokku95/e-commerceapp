@@ -12,6 +12,9 @@
 /e-commerce.Services/obj
 /e-commerce.ConsoleApp/obj
 /e-commerce.ConsoleApp/bin
-/E-commerce.Razor/bin/Debug/net8.0
+/Operations/bin
+/Operations/obj
+*.user
+/E-commerce.Razor/bin
 /E-commerce.Razor/obj
 *.user

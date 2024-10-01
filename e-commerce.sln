@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "e-commerce.Services", "e-co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "e-commerce.ConsoleApp", "e-commerce.ConsoleApp\e-commerce.ConsoleApp.csproj", "{4C79DEBB-6807-4390-A5AF-994591255776}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operations", "Operations\Operations.csproj", "{75EDE67B-6884-40B9-B405-B95C207781F0}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce.Razor", "E-commerce.Razor\E-commerce.Razor.csproj", "{AC3632B9-3E86-40F1-981E-FA44EE9EB201}"
 EndProject
 Global
@@ -39,6 +41,10 @@ Global
 		{AC3632B9-3E86-40F1-981E-FA44EE9EB201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC3632B9-3E86-40F1-981E-FA44EE9EB201}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC3632B9-3E86-40F1-981E-FA44EE9EB201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75EDE67B-6884-40B9-B405-B95C207781F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75EDE67B-6884-40B9-B405-B95C207781F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75EDE67B-6884-40B9-B405-B95C207781F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75EDE67B-6884-40B9-B405-B95C207781F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
